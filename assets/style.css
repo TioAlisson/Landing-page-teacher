@@ -19,6 +19,7 @@
 a { text-decoration: none; }
 p { margin-bottom: 0; }
 
+.row { margin: 0; }
 .spacing { padding: 200px 0px !important; }
 
 .btn-solid, .btn-line { padding: 10px 20px; border: 2px solid var(--secondary); border-radius: 20px; font-size: 14px; color: var(--secondary); transition: all .3s ease-in-out; }
@@ -59,7 +60,7 @@ nav .nav-link { color: var(--white) !important; font-size: 22px; border-bottom: 
 nav .nav-link:hover { color: var(--secondary) !important; border-color: var(--secondary); width: fit-content; }
 
 /* MAIN */
-main { margin: 250px 0px 120px 0px; }
+main { margin: 210px 0px 120px 0px; }
 main h1 { font-size: 72px; font-weight: 900; }
 main h1 span { color: var(--secondary); }
 main h2 { font-size: 48px; font-weight: 700; }
@@ -101,10 +102,10 @@ footer { background-color: var(--white); color: var(--cinza); margin-top: 200px;
 }
 
 @media only screen and (max-device-width: 768px), screen and (max-width: 768px) {
-    .container { padding-inline: 20px; }
+    
     main { margin: 200px 0px 60px 0px; }
     main .img-main { width: 350px; height: 350px; }
-    #contact textarea { width: 300px; }
+    #contact textarea { width: 320px; }
 }
 
 @media only screen and (max-device-width: 450px), screen and (max-width: 450px) {
